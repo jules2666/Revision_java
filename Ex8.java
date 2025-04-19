@@ -22,5 +22,26 @@ public class Ex8
     }
 }
 
+// Deuxième méthode 
+
+class Main
+{
+    public static void main(String args[])
+    {
+        
+    int Matrice [][] = {{1,2,3},{4,5,6},{7,8,9}};
+    
+    for(int temp[] : Matrice)
+    {
+        for(int ligne : temp)
+        {
+            System.out.print(ligne + " ");
+        }
+        System.out.println();
+    }
+        
+    }
+}
+
 // javac ExX.java --> Compilation 
 // java ExX.java  --> Exécution
